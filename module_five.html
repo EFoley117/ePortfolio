@@ -63,6 +63,57 @@
 									<h3> evaluate the security requirements of an API of your choice and write a brief security requirements specification which mitigates against any risks associated with the API for enabling data sharing, 
 										scraping and connectivity between a program code written in Python and any of the following file formats/management systems (XML, JSON and SQL).</h3>
 
+<p>Application programming interface (API) is a set a coded routines which both accepts requests and formulates and sends responses to neighbouring programmes. 
+	An example of an API, is google maps API this meets the definition as it is a series of programming tools which permits developers to merge functionalities within google maps into their own applications, 
+	websites and services thus allowing integration of google maps data.</p>
+
+<p>One of the key security concerns with API technology surrounds authorisation controls, unpermitted access from external parties with malicious intent could result in unwarranted data access or malicious programme modification.1 
+	This concept refers to Insecure direct object references, whereby users can manipulate data parameters, for example in google maps this could involve altering the geolocation of a business address.
+	This security vulnerability can be stopped at the Data validation part of the data wrangling process, 
+	whereby data inputted from injection attacks e.g. SQL injection or XSS can be identified and prevented.3 </p>
+
+<p>Another form of security risk associated with API include systems having a lack of rate limiting and Throttling mechanisms in place, this can make the API susceptible to Denial-of-Service attaches, 
+	whereby the system receives a significant volume of data which will invariably lead to excessive usage age and performance. 
+	Throttling software can effectively prevent this issue from occurring. </p>
+
+<p> API software is also vulnerable to unauthorised access via a user’s browser, which can result in users making unauthorised requests resulting in unpermitted access or data leakage. A common source of such breach is misconfiguration in the Cross-Origin Resource sharing process.
+	It is important for Google maps ensure that these pathways permit only developers on their end of the system have access to such pathways.2</p>
+
+<p> A further facet of the data management pipeline that can leave Google Maps API vulnerable to security attacks includes the volume of data that is collected and stored. 
+	The mass assignment of data without proper validation protocols leaves the software vulnerable to manipulation attacks,
+	secondary to the sheer volume of data being collected and collated – this issue can also be addressed at the data wrangling stage of the management pipeline.4</p>
+
+<p> The Key phase in googles maps API data management pipeline surrounds the use of effective data validation methods. 
+	There are several methods which can be deployed to optimise the validation:</p>
+
+										<ul style=“list-style-type:square”>
+
+<li>•	Input validation – this essentially ensures that all incoming data adheres to the correct data format, data type and range. This can be further checked using schema validation, whereby the structure of the expected incoming data can be clearly </li>
+
+<li>•	The developers are able to set parametrised queries, this ensures that user inputs are not treated as code which could affect the functionality of the API. </li>
+
+<li> •	Content type validation, whereby the header of expected requests matches the expected data format e.g. JSON or XML to prevent potential parsing issues.1 </li>
+
+										</ul>
+
+<p>It is important for Google API to conduct regular reviews of their data validation pathways in response to new and emerging threats and continue to perform security assessments such as penetrating testing to identify potential weakness’ in the process. </p>
+
+									<p>References</p>
+<ul style=“list-style-type:square”>
+<li> ) Munsch, A. and Munsch, P. (2021). Article 2 Part of the Business Administration, Management, and Operations Commons,
+	Management Information Systems Commons, and the Technology and Innovation Commons Recommended Citation Recommended Citation Munsch. Journal of International Technology and Information Management Journal of International Technology and Information Management, [online] 29.
+	Available at: https://scholarworks.lib.csusb.edu/cgi/viewcontent.cgi?article=1454&context=jitim [Accessed July 18 2023]</li> 
+
+<li> 2) Mitchell, B. (2018). The OSI Model Explained in Easy Steps. [online] Lifewire. Available at: https://www.lifewire.com/layers-of-the-osi-model-illustrated-8180 Mitchell, B. (2018). The OSI Model Explained in Easy Steps. [online] Lifewire.
+	Available at: https://www.lifewire.com/layers-of-the-osi-model-illustrated-818017. [Accessed July 19 2023]</li>
+
+<li> 3) OWASP (2021). OWASP Top Ten. [online] Owasp.org. Available at: https://owasp.org/www-project-top-ten/. [Accessed July 17 2023] </li>
+
+<li> 4) Practical Guide to Cloud Management Platforms. (2017). Available at: https://www.omg.org/cloud/deliverables/CSCC-Practical-Guide-to-Cloud-Management-Platforms.pdf. [Accessed July 19 2023]</li>
+
+										</ul>
+
+									
 									
 
 
