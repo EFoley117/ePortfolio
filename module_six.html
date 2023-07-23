@@ -44,7 +44,30 @@
 									<header class="major">
 										<h1>Unit 11: Back-up procedure Case</h1>
 									</header>
+									</header>
+									<h2>In this module, we will look at how database systems can fail and what systems are in place to guarantee system failures do not lose data or interfere with the integrity of the data within the system. We will look at achieving a database in a “consistent state” where transactions are either fully committed or do not commit at all, alleviating errors within the database.</h2>
 									
+									<h2> Summarising this modules studies: </h2> 
+									<ul style=“list-style-type:square”>
+
+<li>Introduce transaction processing.</li>
+
+<li>Identify the ACID transaction state and their effects on the transaction cycle.</li>
+
+<li>Examine scheduled transactions, system failures and checkpoints.</li>
+
+									</ul>
+
+									<h2> Back-up procedure task</h2>
+									<h2> In 100 - 150 words, critically evaluate the disaster recovery system called the “Grandfather-Father-Son" GFS backup procedure. Using the sites listed in this week’s reading list as an introduction to the topic, highlight how the strategy makes the back-up of large databases less resource heavy and argue whether this strategy is effective when compared to other methods of backing up data.</h2>
+
+<p> The Grandfather-Father-Son back-up procedure is a data recovery scheme that operates in a rotational nature creating different levels of data back-up based on time frame indicators. This system can be implemented for large databases and aims to strike a balance between multiple back-up points and avoiding excessive storage requirements</p>
+<p> The main advantage is a reduction in the back-up requirements, as it only stores a few back-ups that differ based on time frame, instead of having to process a daily full back-up. The reduced need for storage capacity means there are lower costs associated with maintaining the system. There is also a greater efficiency as the as it is faster and easier to recover data from different points in time with storing excessive back-ups.</p>
+<p> When compared to other systems of back up procedures for data management systems, full daily back-ups have a unique advantage of having more recovery points thereby having better granularity for data recovery, although the storage resources remain significantly higher. Continuous Data Protection (CDP) offer near continuous replication and therefore rapid Recovery point objective (RPO); however, they can incur a significant cost and may also require additional architecture. </p>
+
+									<p>References:</p>
+
+									<p> Anon, (n.d.). Simplifying Grandfather-Father-Son Backup for Data Protection |Corodata. [online] Available at: https://corodata.com/grandfather-father-son-backup. [Accessed July 17 2023]</p>
 								</div>
 							</section>
 
@@ -80,7 +103,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">tarapatricecasserly@gmail.com</a>
+										<a href="#">epfoley17@gmail.com</a>
 									</div>
 								</section>
 								<section>
@@ -94,7 +117,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
-										<span>LONDON<br />
+										<span>LONDON, UK<br />
 										<br />
 										</span>
 									</div>
@@ -103,18 +126,7 @@
 						</div>
 					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://www.instagram.com/taracasserly" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/taracasserly?tab=repositories" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/tarapcasserly/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-						
-							</ul>
-						</div>
-					</footer>
+				
 
 			</div>
 
