@@ -121,6 +121,34 @@
 <p> KAIF adds value to QRADAR through its machine learning strategies for profiling, clustering, classifying, and summarising packet data in real-time to anticipate threats and provide intelligence for necessary action.</p>	
 
 <p> To make the integration successful, various tasks and requirements must be completed, including testing with large data sets, ensuring proper inter-process communication, legible output presentation, and business development strategies.</p>
+								
+	<h1>Reflection</h1>
+									</header>
+									</header>
+									<h2>In this module, we will look at how database systems can fail and what systems are in place to guarantee system failures do not lose data or interfere with the integrity of the data within the system. We will look at achieving a database in a “consistent state” where transactions are either fully committed or do not commit at all, alleviating errors within the database.</h2>
+									
+									<h2> Summarising this modules studies: </h2> 
+									<ul style=“list-style-type:square”>
+
+<li>Introduce transaction processing.</li>
+
+<li>Identify the ACID transaction state and their effects on the transaction cycle.</li>
+
+<li>Examine scheduled transactions, system failures and checkpoints.</li>
+
+									</ul>
+
+									<h2> Back-up procedure task</h2>
+									<h2> In 100 - 150 words, critically evaluate the disaster recovery system called the “Grandfather-Father-Son" GFS backup procedure. Using the sites listed in this week’s reading list as an introduction to the topic, highlight how the strategy makes the back-up of large databases less resource heavy and argue whether this strategy is effective when compared to other methods of backing up data.</h2>
+
+<p> The Grandfather-Father-Son back-up procedure is a data recovery scheme that operates in a rotational nature creating different levels of data back-up based on time frame indicators. This system can be implemented for large databases and aims to strike a balance between multiple back-up points and avoiding excessive storage requirements</p>
+<p> The main advantage is a reduction in the back-up requirements, as it only stores a few back-ups that differ based on time frame, instead of having to process a daily full back-up. The reduced need for storage capacity means there are lower costs associated with maintaining the system. There is also a greater efficiency as the as it is faster and easier to recover data from different points in time with storing excessive back-ups.</p>
+<p> When compared to other systems of back up procedures for data management systems, full daily back-ups have a unique advantage of having more recovery points thereby having better granularity for data recovery, although the storage resources remain significantly higher. Continuous Data Protection (CDP) offer near continuous replication and therefore rapid Recovery point objective (RPO); however, they can incur a significant cost and may also require additional architecture. </p>
+								
+								
+								
+								
+								
 								</div>
 							</section>
 
